@@ -62,18 +62,23 @@ html {
             background-color: white;
             color: rgb(10, 54, 199);
         }
-    .sectionlist{
-        list-style-type: disc;
-        line-height: 1.8em;
+    li{
+        /* list-style-type: disc; */
+        line-height: 1em;
         color: rgb(85, 85, 85);
-        padding: 1em;
-        border: double 4px rgb(15, 29, 230);
-        border-radius: 25px;
-        margin: 2.5%;
+        padding: .5em;
+       /* border: double 4px rgb(15, 29, 230);
+        border-radius: 25px; */
+        margin: 1.5%;
     }
     section{
-      padding-bottom: 4em;
-      padding-top: 4em;
+      padding: 2em;
+      border-top: 4px;
+      border-left: 4px;
+      border-right: 4px;
+      border-color: blue;
+      border: double 4px rgb(15, 29, 230); 
+      border-radius: 25px; 
     }
 
     .learning {
@@ -91,10 +96,10 @@ html {
     }
 
     /* link styles */
-a:link, a:visited { color: #8d03dc; }
-a:focus, a:hover, a:active { color: #1411e4; }
+    a:link, a:visited { color: rgb(199, 59, 212); }
+    a:focus, a:hover, a:active { color: #1197e4; }
 
-      /* Navbar container */
+      /* Navbar container 
 .navbar {
     overflow: hidden;
     background-color: black;
@@ -103,7 +108,7 @@ a:focus, a:hover, a:active { color: #1411e4; }
     margin-top: 0;
   }
   
-  /* Links inside the navbar */
+  /* Links inside the navbar 
   .navbar a {
     float: left;
     font-size: 16px;
@@ -114,14 +119,14 @@ a:focus, a:hover, a:active { color: #1411e4; }
     margin-top: 0;
   }
   
-  /* The dropdown container */
+  /* The dropdown container 
   .dropdown {
     float: left;
     overflow: hidden;
 
   }
   
-  /* Dropdown button */
+  /* Dropdown button 
   .dropdown .dropbtn {
     font-size: 16px; 
     border: none;
@@ -133,12 +138,12 @@ a:focus, a:hover, a:active { color: #1411e4; }
     margin: 0;  /* Important for vertical align on mobile phones */
   }
   
-  /* Add a red background color to navbar links on hover */
+  /* Add a red background color to navbar links on hover 
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(0, 162, 255);
   }
   
-  /* Dropdown content (hidden by default) */
+  /* Dropdown content (hidden by default) 
   .dropdown-content {
     display: none;
     position: absolute;
@@ -148,7 +153,7 @@ a:focus, a:hover, a:active { color: #1411e4; }
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+  /* Links inside the dropdown 
   .dropdown-content a {
     float: none;
     color: black;
@@ -158,12 +163,13 @@ a:focus, a:hover, a:active { color: #1411e4; }
     text-align: left;
   }
   
-  /* Add a grey background color to dropdown links on hover */
+  /* Add a grey background color to dropdown links on hover 
   .dropdown-content a:hover {
     background-color: #ddd;
   }
   
-  /* Show the dropdown menu on hover */
+  /* Show the dropdown menu on hover 
   .dropdown:hover .dropdown-content {
     display: block;
   }  
+*/

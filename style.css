@@ -70,9 +70,11 @@ html {
        /* border: double 4px rgb(15, 29, 230);
         border-radius: 25px; */
         margin: 1.5%;
+        
     }
     section{
       padding: 2em;
+      margin: 5%;
       border-top: 4px;
       border-left: 4px;
       border-right: 4px;
@@ -136,7 +138,7 @@ html {
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones 
     margin: 0;  /* Important for vertical align on mobile phones */
-  }
+  
   
   /* Add a red background color to navbar links on hover 
   .navbar a:hover, .dropdown:hover .dropbtn {

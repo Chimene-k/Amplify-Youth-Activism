@@ -1,52 +1,91 @@
-
 <!DOCTYPE html>
-<html> 
-    <head> 
-        <meta charset = "utf-8">
-        <title> Conversations </title>
-        <link rel="stylesheet" href="YouthActivismsite/style.css">
+<html>
 
-        <style> 
-            @import url("/Users/chimenekeys/Desktop/CodingForChange/MyYouthActivismWebsite/YouthActivismsite/style.css");
-         </style>
-    </head>
-    
-    <body> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <div class="navbar"> 
-            <a href="/Users/chimenekeys/Desktop/CodingForChange/MyYouthActivismWebsite/YouthActivismsite/index.html">Home </a>
-            <div class="dropdown"> 
-                <button class="dropdown"> select a place to begin
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="/Users/chimenekeys/Desktop/CodingForChange/MyYouthActivismWebsite/YouthActivismsite/How.html"> Learn </a>
-                    <a href="Why.html"> Reflect and Absorb</a>
-                    <a href="WhoWhat.html"> Getting involved </a>
-                    <a href="community.html"> Community Conversations </a>
-                </div>
+  <title> Community Conversations </title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a class="navbar-brand"
+      href="./index.html">AMPLIFY<span
+        class="sr-only">(current)</span></a>
+  
+
+    <div id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SELECT
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="How.html"> Learn</a>
+              <a class="dropdown-item" href="Why.html"> Reflect and Absorb </a>
+              <a class="dropdown-item" href="WhoWhat.html"> Getting Involved </a>
+              <a class="dropdown-item active" href="community.html"> Community Conversations </a>
+
             </div>
-        </div>
-           
-      <h1> Community Conversations </h1>
-        <p> We need to keep collaborating, learning, and sharing. 
-            Here is a forum for communicating about activism and amplifying our various efforts. </p>
-        <h2>  Start a conversation! </h2>
-    
-    <form> 
+        </li>
+    </div>
 
-  <ul>
-    <li>Name: <input type="text" name="conversation" id="firstname"> </li>
-    <li> Join the conversation:<br>
-      <textarea name="conversation" rows="4" cols="60" id="message"
-      maxlength="500" placeholder="No more than 500 characters long!"></textarea></li>
-    <p> <button type="submit" id="submit"> comment </button><input type="reset"></p>
-  </ul>
-</form>
 
-<div id="conversation"> </div>
-<script src="app.js"> </script>
-    </body>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    </div>
+  </nav>
+
+ 
+
+  <h1> Community Conversations </h1>
+  <h3>  We need to keep collaborating, learning, and sharing.
+    Here is a forum for communicating about activism and amplifying our various efforts. </h3>
+  <h2> Start a conversation! </h2>
+
+  <form>
+
+    <ul>
+      <li>Name: <input type="text" name="conversation" id="firstname"> </li>
+      <li> Join the conversation:<br>
+        <textarea name="conversation" rows="4" cols="60" id="message" maxlength="500"
+          placeholder="No more than 500 characters long!"></textarea></li>
+      <p> <button type="submit" id="submit"> comment </button><input type="reset"></p>
+    </ul>
+  </form>
+
+  <div id="conversation"> </div>
+  <script src="app.js"> </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+</body>
 
 
 
